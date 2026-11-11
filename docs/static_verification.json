@@ -1,0 +1,281 @@
+{
+  "kind": "static source contracts only",
+  "checks": [
+    {
+      "check": "new filenames use EGC_ prefix",
+      "passed": true
+    },
+    {
+      "check": "balanced braces (lexical only)",
+      "passed": true
+    },
+    {
+      "check": "no reference product symbols in active mod",
+      "passed": true
+    },
+    {
+      "check": "no custom ban or VIP persistence",
+      "passed": true
+    },
+    {
+      "check": "modern JSON context in new code",
+      "passed": true
+    },
+    {
+      "check": "RPC does not accept actor/UID parameter",
+      "passed": true
+    },
+    {
+      "check": "actor derives from controller",
+      "passed": true
+    },
+    {
+      "check": "server authorization in gateway",
+      "passed": true
+    },
+    {
+      "check": "selection checks UID and controller incarnation",
+      "passed": true
+    },
+    {
+      "check": "selection checks snapshot generation",
+      "passed": true
+    },
+    {
+      "check": "sequence replay and request rate guards present",
+      "passed": true
+    },
+    {
+      "check": "RPC directions restricted to Server and Owner",
+      "passed": true
+    },
+    {
+      "check": "staff load failure denies access",
+      "passed": true
+    },
+    {
+      "check": "VIP guard and active native roles checked",
+      "passed": true
+    },
+    {
+      "check": "new class names unique against supplied archives",
+      "passed": true
+    },
+    {
+      "check": "API symbol IsPlayerConnected in Game/generated/Network/PlayerManager.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol HasPlayerRole in Game/generated/Network/PlayerManager.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol GetPlayers in Game/generated/Network/PlayerManager.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol GetPlayerName in Game/generated/Network/PlayerManager.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol GetPlayerController in Game/generated/Network/PlayerManager.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol GetPlayerControlledEntity in Game/generated/Network/PlayerManager.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol KickPlayer in Game/generated/Network/PlayerManager.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol GetPlayerId in Game/generated/Player/PlayerController.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol GetPlayerIdentityId in GameLib/generated/online/BackendApi.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol GetTickCount in Core/generated/System/System.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol GetYearMonthDay in Core/generated/System/System.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol GetHourMinuteSecond in Core/generated/System/System.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol LoadFromFile in Game/generated/Plugins/Serialization/Presets/JsonLoadContext.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol ReadValue in Game/generated/Plugins/Serialization/LoadContext.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol FullHeal in Game/Components/Damage/SCR_CharacterDamageManagerComponent.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol GetState in Game/generated/Components/DamageManagerComponent.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol SetDisableViewControls in Game/generated/Components/CharacterControllerComponent.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol SetDisableWeaponControls in Game/generated/Components/CharacterControllerComponent.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol SetDisableMovementControls in Game/generated/Components/CharacterControllerComponent.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol CreateWidget in Core/generated/UI/WorkspaceWidget.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol AddModal in Core/generated/UI/WorkspaceWidget.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol RemoveModal in Core/generated/UI/WorkspaceWidget.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol SetAnchorMin in Core/generated/UI/FrameSlot.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol SetAnchorMax in Core/generated/UI/FrameSlot.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol SetOffsets in Core/generated/UI/FrameSlot.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol SetName in Core/generated/UI/Widget.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol GetName in Core/generated/UI/Widget.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol FindAnyWidget in Core/generated/UI/Widget.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol SetVisible in Core/generated/UI/Widget.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol SetFlags in Core/generated/UI/Widget.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol AddHandler in Core/generated/UI/Widget.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol RemoveHandler in Core/generated/UI/Widget.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol RemoveFromHierarchy in Core/generated/UI/Widget.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol SetText in Core/generated/UI/TextWidget.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol GetText in Core/generated/UI/TextWidget.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol SetFont in Core/generated/UI/TextWidget.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol SetDesiredFontSize in Core/generated/UI/TextWidget.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol SetMinFontSize in Core/generated/UI/TextWidget.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol SetTextWrapping in Core/generated/UI/TextWidget.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol GetText in Core/generated/UI/EditBoxWidget.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol OnClick in Core/generated/UI/ScriptedWidgetEventHandler.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol Trim in Core/generated/Types/string.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol Replace in Core/generated/Types/string.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol Substring in Core/generated/Types/string.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol Length in Core/generated/Types/string.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol ToString in Core/generated/Types/string.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol GetElement in Core/proto/Types.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol GetKey in Core/proto/Types.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol UpdateLocalPlayerController in Game/Player/SCR_PlayerController.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol UpdateControls in Game/Player/SCR_PlayerController.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol GetCharacterController in Game/Player/SCR_PlayerController.c",
+      "passed": true
+    },
+    {
+      "check": "API symbol AddActionListener in GameLib/generated/Input/ActionManager.c",
+      "passed": true
+    },
+    {
+      "check": "native role/identity sources unchanged",
+      "passed": true
+    }
+  ],
+  "passed": 68,
+  "failed": 0,
+  "compiled": false,
+  "in_game_tested": false
+}

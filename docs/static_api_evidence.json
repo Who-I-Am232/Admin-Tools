@@ -1,0 +1,388 @@
+[
+  {
+    "symbol": "IsPlayerConnected",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Game/generated/Network/PlayerManager.c",
+    "lines": [
+      60
+    ]
+  },
+  {
+    "symbol": "HasPlayerRole",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Game/generated/Network/PlayerManager.c",
+    "lines": [
+      62
+    ]
+  },
+  {
+    "symbol": "GetPlayers",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Game/generated/Network/PlayerManager.c",
+    "lines": [
+      30
+    ]
+  },
+  {
+    "symbol": "GetPlayerName",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Game/generated/Network/PlayerManager.c",
+    "lines": [
+      36
+    ]
+  },
+  {
+    "symbol": "GetPlayerController",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Game/generated/Network/PlayerManager.c",
+    "lines": [
+      56
+    ]
+  },
+  {
+    "symbol": "GetPlayerControlledEntity",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Game/generated/Network/PlayerManager.c",
+    "lines": [
+      45
+    ]
+  },
+  {
+    "symbol": "KickPlayer",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Game/generated/Network/PlayerManager.c",
+    "lines": [
+      22
+    ]
+  },
+  {
+    "symbol": "GetPlayerId",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Game/generated/Player/PlayerController.c",
+    "lines": [
+      54
+    ]
+  },
+  {
+    "symbol": "GetPlayerIdentityId",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/GameLib/generated/online/BackendApi.c",
+    "lines": [
+      43,
+      44,
+      244
+    ]
+  },
+  {
+    "symbol": "GetTickCount",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/System/System.c",
+    "lines": [
+      134
+    ]
+  },
+  {
+    "symbol": "GetYearMonthDay",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/System/System.c",
+    "lines": [
+      99,
+      110
+    ]
+  },
+  {
+    "symbol": "GetHourMinuteSecond",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/System/System.c",
+    "lines": [
+      61,
+      72
+    ]
+  },
+  {
+    "symbol": "LoadFromFile",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Game/generated/Plugins/Serialization/Presets/JsonLoadContext.c",
+    "lines": [
+      16
+    ]
+  },
+  {
+    "symbol": "ReadValue",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Game/generated/Plugins/Serialization/LoadContext.c",
+    "lines": [
+      21
+    ]
+  },
+  {
+    "symbol": "FullHeal",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Game/Components/Damage/SCR_CharacterDamageManagerComponent.c",
+    "lines": [
+      684,
+      701,
+      2263
+    ]
+  },
+  {
+    "symbol": "GetState",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Game/generated/Components/DamageManagerComponent.c",
+    "lines": [
+      56
+    ]
+  },
+  {
+    "symbol": "SetDisableViewControls",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Game/generated/Components/CharacterControllerComponent.c",
+    "lines": [
+      409
+    ]
+  },
+  {
+    "symbol": "SetDisableWeaponControls",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Game/generated/Components/CharacterControllerComponent.c",
+    "lines": [
+      413
+    ]
+  },
+  {
+    "symbol": "SetDisableMovementControls",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Game/generated/Components/CharacterControllerComponent.c",
+    "lines": [
+      405
+    ]
+  },
+  {
+    "symbol": "CreateWidget",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/WorkspaceWidget.c",
+    "lines": [
+      71
+    ]
+  },
+  {
+    "symbol": "AddModal",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/WorkspaceWidget.c",
+    "lines": [
+      31
+    ]
+  },
+  {
+    "symbol": "RemoveModal",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/WorkspaceWidget.c",
+    "lines": [
+      36
+    ]
+  },
+  {
+    "symbol": "SetAnchorMin",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/FrameSlot.c",
+    "lines": [
+      35,
+      37
+    ]
+  },
+  {
+    "symbol": "SetAnchorMax",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/FrameSlot.c",
+    "lines": [
+      35,
+      38
+    ]
+  },
+  {
+    "symbol": "SetOffsets",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/FrameSlot.c",
+    "lines": [
+      28
+    ]
+  },
+  {
+    "symbol": "SetName",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/Widget.c",
+    "lines": [
+      23
+    ]
+  },
+  {
+    "symbol": "GetName",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/Widget.c",
+    "lines": [
+      24
+    ]
+  },
+  {
+    "symbol": "FindAnyWidget",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/Widget.c",
+    "lines": [
+      103
+    ]
+  },
+  {
+    "symbol": "SetVisible",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/Widget.c",
+    "lines": [
+      50
+    ]
+  },
+  {
+    "symbol": "SetFlags",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/Widget.c",
+    "lines": [
+      140,
+      144
+    ]
+  },
+  {
+    "symbol": "AddHandler",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/Widget.c",
+    "lines": [
+      39
+    ]
+  },
+  {
+    "symbol": "RemoveHandler",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/Widget.c",
+    "lines": [
+      41
+    ]
+  },
+  {
+    "symbol": "RemoveFromHierarchy",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/Widget.c",
+    "lines": [
+      99
+    ]
+  },
+  {
+    "symbol": "SetText",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/TextWidget.c",
+    "lines": [
+      129
+    ]
+  },
+  {
+    "symbol": "GetText",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/TextWidget.c",
+    "lines": [
+      122
+    ]
+  },
+  {
+    "symbol": "SetFont",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/TextWidget.c",
+    "lines": [
+      120
+    ]
+  },
+  {
+    "symbol": "SetDesiredFontSize",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/TextWidget.c",
+    "lines": [
+      36
+    ]
+  },
+  {
+    "symbol": "SetMinFontSize",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/TextWidget.c",
+    "lines": [
+      38
+    ]
+  },
+  {
+    "symbol": "SetTextWrapping",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/TextWidget.c",
+    "lines": [
+      44
+    ]
+  },
+  {
+    "symbol": "GetText",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/EditBoxWidget.c",
+    "lines": [
+      27
+    ]
+  },
+  {
+    "symbol": "OnClick",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/UI/ScriptedWidgetEventHandler.c",
+    "lines": [
+      28
+    ]
+  },
+  {
+    "symbol": "Trim",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/Types/string.c",
+    "lines": [
+      111,
+      117
+    ]
+  },
+  {
+    "symbol": "Replace",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/Types/string.c",
+    "lines": [
+      299,
+      308
+    ]
+  },
+  {
+    "symbol": "Substring",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/Types/string.c",
+    "lines": [
+      98,
+      104
+    ]
+  },
+  {
+    "symbol": "Length",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/Types/string.c",
+    "lines": [
+      154,
+      160
+    ]
+  },
+  {
+    "symbol": "ToString",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/generated/Types/string.c",
+    "lines": [
+      383
+    ]
+  },
+  {
+    "symbol": "GetElement",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/proto/Types.c",
+    "lines": [
+      519,
+      579
+    ]
+  },
+  {
+    "symbol": "GetKey",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Core/proto/Types.c",
+    "lines": [
+      526,
+      581
+    ]
+  },
+  {
+    "symbol": "UpdateLocalPlayerController",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Game/Player/SCR_PlayerController.c",
+    "lines": [
+      597,
+      608
+    ]
+  },
+  {
+    "symbol": "UpdateControls",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Game/Player/SCR_PlayerController.c",
+    "lines": [
+      601,
+      634
+    ]
+  },
+  {
+    "symbol": "GetCharacterController",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/Game/Player/SCR_PlayerController.c",
+    "lines": [
+      230,
+      674,
+      682,
+      688,
+      694,
+      703
+    ]
+  },
+  {
+    "symbol": "AddActionListener",
+    "file": "research/1-Arma-Reforger-Script-Diff-main/Arma-Reforger-Script-Diff-main/scripts/GameLib/generated/Input/ActionManager.c",
+    "lines": [
+      34
+    ]
+  }
+]

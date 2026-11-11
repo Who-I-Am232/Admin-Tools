@@ -1,0 +1,1355 @@
+[
+  {
+    "file": "scripts/Game/ACE_Trenches/Components/EGC_Trenches_OutlineGarbageComponent.c",
+    "classes": [
+      "ACE_Trenches_OutlineGarbageComponent"
+    ],
+    "references": [],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/Campaign/rank_enum.c",
+    "classes": [],
+    "references": [],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/Components/Arsenal/SCR_EEditableEntityLabel.c",
+    "classes": [],
+    "references": [],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/Components/EGC_CampaignMilitaryBaseComponent.c",
+    "classes": [
+      "SCR_CampaignMilitaryBaseComponent"
+    ],
+    "references": [
+      "EGC_Core",
+      "EGC_GetEffectiveAntennaRange",
+      "EGC_IsAllowedToConnectUsingWhitelist",
+      "EGC_IsAntennaRangeOverridden",
+      "EGC_IsUsingWhiteList",
+      "EGC_RefreshBaseConnections",
+      "EGC_RefreshRealCoverage",
+      "EGC_RetrySetProviderEntity",
+      "EGC_UNLIMITED_ANTENNA_RANGE",
+      "EGC_isLocalPlayerPresentController"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/Components/EGC_CoverageRadioComponent.c",
+    "classes": [
+      "SCR_CoverageRadioComponent"
+    ],
+    "references": [
+      "EGC_GetBase"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/Components/EGC_RadioCoverageMapDescriptorComponent.c",
+    "classes": [
+      "SCR_RadioCoverageMapDescriptorComponent"
+    ],
+    "references": [
+      "EGC_GetBase",
+      "EGC_IsAllowedToConnectUsingWhitelist"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/Components/EGC_RadioCoverageSystem.c",
+    "classes": [
+      "SCR_RadioCoverageSystem"
+    ],
+    "references": [
+      "EGC_GetBase",
+      "EGC_IsAllowedToConnectUsingWhitelist",
+      "EGC_RefreshBaseConnections"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/Components/Gadgets/EGC_WristWatchComponent.c",
+    "classes": [
+      "EGC_WristWatchComponent"
+    ],
+    "references": [
+      "EGC_WristWatchComponent"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/Components/Gadgets/EGC_WristWatchComponentClass.c",
+    "classes": [
+      "EGC_WristWatchComponentClass"
+    ],
+    "references": [
+      "EGC_WristWatchComponentClass"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/DFF/DFF_Config.c",
+    "classes": [
+      "DFF_Config"
+    ],
+    "references": [],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/DFF/DFF_ConfigIO.c",
+    "classes": [
+      "DFF_ConfigIO"
+    ],
+    "references": [
+      "EGC_config",
+      "EGC_friendly_fire"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config/"
+    ]
+  },
+  {
+    "file": "scripts/Game/DFF/DFF_FriendlyFireToggleAttribute.c",
+    "classes": [
+      "EGC_DFF_FriendlyFireToggleAttribute"
+    ],
+    "references": [
+      "EGC_DFF_FriendlyFireToggleAttribute"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/DFF/DisableFriendlyFire.c",
+    "classes": [
+      "DisableFriendlyFire"
+    ],
+    "references": [],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/DFF/Modded_SCR_BaseGameMode.c",
+    "classes": [
+      "SCR_BaseGameMode"
+    ],
+    "references": [],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/DFF/Modded_SCR_CharacterDamageManagerComponent.c",
+    "classes": [
+      "SCR_CharacterDamageManagerComponent"
+    ],
+    "references": [],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/DFF/Modded_SCR_CharacterHitZone.c",
+    "classes": [
+      "SCR_CharacterHitZone"
+    ],
+    "references": [],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/DFF/Modded_SCR_FlammableHitZone.c",
+    "classes": [
+      "SCR_FlammableHitZone"
+    ],
+    "references": [],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/Editor/Components/Editor/EGC_BudgetEditorComponent.c",
+    "classes": [
+      "SCR_CampaignBuildingBudgetEditorComponent"
+    ],
+    "references": [
+      "EGC_CanPlaceOwnerCampaignBuilding"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/Editor/Components/Editor/SCR_CampaignBuildingBudgetEditorComponent.c",
+    "classes": [
+      "SCR_CampaignBuildingBudgetEditorComponentClass",
+      "SCR_CampaignBuildingBudgetEditorComponent"
+    ],
+    "references": [],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/Editor/Enums/EEditableEntityBudget.c",
+    "classes": [],
+    "references": [
+      "EGC_XP_COST"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/Editor/UI/Components/Toolbar/SCR_PlacingToolbarEditorUIComponent.c",
+    "classes": [
+      "SCR_PlacingToolbarEditorUIComponent"
+    ],
+    "references": [],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_AdminSpy.c",
+    "classes": [
+      "EGC_AdminSpyConfig",
+      "EGC_AdminSpyState",
+      "SCR_BaseGameMode",
+      "EGC_AdminSpyEnabledAttribute",
+      "SCR_PlayerListMenu"
+    ],
+    "references": [
+      "EGC_AdminSpy",
+      "EGC_AdminSpyConfig",
+      "EGC_AdminSpyEnabledAttribute",
+      "EGC_AdminSpyState",
+      "EGC_IsAdminSpyEnabled",
+      "EGC_OnAdminSpyUpdated",
+      "EGC_SetAdminSpyEnabled",
+      "EGC_config"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config/"
+    ]
+  },
+  {
+    "file": "scripts/Game/EGC_AdminToolsLogout.c",
+    "classes": [
+      "ServerAdminTools_PauseMenuButtonComponent"
+    ],
+    "references": [
+      "EGC_Logout",
+      "EGC_StaffList"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_AutoCleanupSystem.c",
+    "classes": [
+      "EGC_CleanupHUD",
+      "EGC_CleanupDisplay",
+      "SCR_PlayerController",
+      "EGC_AutoCleanupSystemComponentClass",
+      "EGC_AutoCleanupSystemComponent"
+    ],
+    "references": [
+      "EGC_AUTOCLEANUP_EXECUTE",
+      "EGC_AUTOCLEANUP_WARNING",
+      "EGC_AUTOCLEANUP_WARNING_2",
+      "EGC_AutoCleanupSystemComponent",
+      "EGC_AutoCleanupSystemComponentClass",
+      "EGC_CleanupDisplay",
+      "EGC_CleanupHUD",
+      "EGC_RpcUpdateCleanupUI",
+      "EGC_SendCleanupUpdate"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_AutoRunCruiseControl.c",
+    "classes": [
+      "EGC_AutoMoveComponentClass",
+      "EGC_AutoMoveComponent",
+      "SCR_CharacterControllerComponent",
+      "EGC_CruiseControlComponentClass",
+      "EGC_CruiseControlComponent",
+      "SCR_HandBrakeInfo",
+      "SCR_BaseAnalogGauge"
+    ],
+    "references": [
+      "EGC_AutoMoveComponent",
+      "EGC_AutoMoveComponentClass",
+      "EGC_AutoMoveToggle",
+      "EGC_CRUISE_BRAKE_CANCEL_THRESHOLD",
+      "EGC_CRUISE_SPEED_GAIN",
+      "EGC_ControlsPreparedDelegate",
+      "EGC_ControlsPreparedInvoker",
+      "EGC_CreateIcon",
+      "EGC_CruiseControlComponent",
+      "EGC_CruiseControlComponentClass",
+      "EGC_DestroyIcon",
+      "EGC_DisengageActiveCruise",
+      "EGC_DisengageCruise",
+      "EGC_EngageCruise",
+      "EGC_FONT",
+      "EGC_Find",
+      "EGC_GLOW_IMAGESET",
+      "EGC_GetLockedSpeedKmh",
+      "EGC_GetPilotedVehicle",
+      "EGC_GetSim",
+      "EGC_ICON_IMAGESET",
+      "EGC_ICON_LAYOUT",
+      "EGC_ICON_NAME",
+      "EGC_IsCruiseActive",
+      "EGC_OnCompartmentLeft",
+      "EGC_OnControlsPrepared",
+      "EGC_OnLifeStateChanged",
+      "EGC_OnPossessionChanged",
+      "EGC_OnTogglePressed",
+      "EGC_SPEED_GAUGE_SLOT",
+      "EGC_TICK_ICON",
+      "EGC_TICK_IMAGESET",
+      "EGC_TICK_RADIUS",
+      "EGC_TICK_SCALE",
+      "EGC_UpdateIcon"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_BanSystem.c",
+    "classes": [
+      "SCR_BaseGameMode",
+      "EGC_BanListData",
+      "EGC_BanExporterCallback",
+      "EGC_BanSystem"
+    ],
+    "references": [
+      "EGC_BanExporterCallback",
+      "EGC_BanListData",
+      "EGC_BanSystem",
+      "EGC_Bans",
+      "EGC_DEBUG",
+      "EGC_config"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config/",
+      "$profile:EGC_config/security.bin"
+    ]
+  },
+  {
+    "file": "scripts/Game/EGC_BoatSystem.c",
+    "classes": [
+      "SCR_CampaignBuildingPlacingObstructionEditorComponent"
+    ],
+    "references": [],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_BudgetsLimits.c",
+    "classes": [
+      "EGC_GMBudgetsConfig",
+      "EGC_GMBudgetsState",
+      "SCR_BaseGameMode",
+      "EGC_Budget_LimitsEnabledAttribute",
+      "SCR_BudgetEditorComponent",
+      "SCR_PlacingEditorComponent"
+    ],
+    "references": [
+      "EGC_BUDGET",
+      "EGC_Budget_LimitsEnabledAttribute",
+      "EGC_CaptureAndApplyBudgets",
+      "EGC_GMBudgets",
+      "EGC_GMBudgetsConfig",
+      "EGC_GMBudgetsState",
+      "EGC_config"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config/"
+    ]
+  },
+  {
+    "file": "scripts/Game/EGC_BushCampingDamageArea.c",
+    "classes": [
+      "EGC_BushCampingMarkerComponentClass",
+      "EGC_BushCampingMarkerComponent",
+      "EGC_BushCampingCharacterComponentClass",
+      "EGC_BushCampingCharacterComponent"
+    ],
+    "references": [
+      "EGC_BushCampingCharacterComponent",
+      "EGC_BushCampingCharacterComponentClass",
+      "EGC_BushCampingMarkerComponent",
+      "EGC_BushCampingMarkerComponentClass"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_CharacterHitZone.c",
+    "classes": [
+      "EGC_DebugHitVisualizer",
+      "EGC_DamageImpulse",
+      "SCR_CharacterHitZone",
+      "SCR_CharacterDamageManagerComponent"
+    ],
+    "references": [
+      "EGC_ApplyRagdollImpulse",
+      "EGC_DamageImpulse",
+      "EGC_DebugHitVisualizer",
+      "EGC_Rpc_DoRagdollImpulse"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_ConsciousnessSystem.c",
+    "classes": [
+      "SCR_CharacterDamageManagerComponent"
+    ],
+    "references": [],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_CorpseCleanerEntity.c",
+    "classes": [
+      "EGC_CorpseCleanerEntityClass",
+      "EGC_CorpseCleanerEntity"
+    ],
+    "references": [
+      "EGC_CorpseCleaner",
+      "EGC_CorpseCleanerEntity",
+      "EGC_CorpseCleanerEntityClass"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_FactionSelectConfig.c",
+    "classes": [
+      "EGC_FactionSelectConfig",
+      "SCR_BaseGameMode"
+    ],
+    "references": [
+      "EGC_FACTIONSELECT",
+      "EGC_FactionSelect",
+      "EGC_FactionSelectConfig",
+      "EGC_FactionSelect_GetFactionImage",
+      "EGC_FactionSelect_IsFactionShown",
+      "EGC_config"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config/"
+    ]
+  },
+  {
+    "file": "scripts/Game/EGC_FactionSelectorUIComponent.c",
+    "classes": [
+      "EGC_FactionSelectorUIComponent",
+      "EGC_FactionButton"
+    ],
+    "references": [
+      "EGC_FACTIONSELECT",
+      "EGC_FactionButton",
+      "EGC_FactionImage",
+      "EGC_FactionList",
+      "EGC_FactionName",
+      "EGC_FactionSelect_GetFactionImage",
+      "EGC_FactionSelect_IsFactionShown",
+      "EGC_FactionSelectorUIComponent",
+      "EGC_NoFactions",
+      "EGC_PlayerCount",
+      "EGC_PlayerIcon"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_FixItemRankCache.c",
+    "classes": [
+      "SCR_ArsenalManagerComponent"
+    ],
+    "references": [
+      "EGC_FixItemRankCache",
+      "EGC_RANKFIX"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_GlobalChatControl.c",
+    "classes": [
+      "EGC_GlobalChatConfig",
+      "EGC_GlobalChatState",
+      "SCR_BaseGameMode",
+      "EGC_GlobalChatEnabledAttribute",
+      "SCR_ChatPanel"
+    ],
+    "references": [
+      "EGC_CHAT",
+      "EGC_GlobalChat",
+      "EGC_GlobalChatConfig",
+      "EGC_GlobalChatEnabledAttribute",
+      "EGC_GlobalChatState",
+      "EGC_IsGlobalChannel",
+      "EGC_IsGlobalChatEnabled",
+      "EGC_IsPlayerAdmin",
+      "EGC_OnGlobalChatFlagUpdated",
+      "EGC_SetGlobalChatEnabled",
+      "EGC_ShowChannelBlockedMessage",
+      "EGC_config"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config/"
+    ]
+  },
+  {
+    "file": "scripts/Game/EGC_GPSPlayerPosition.c",
+    "classes": [
+      "EGC_GPSPlayerPositionConfig",
+      "EGC_GPSPlayerPosition"
+    ],
+    "references": [
+      "EGC_GPSPlayerPosition",
+      "EGC_GPSPlayerPositionConfig"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_GraphicsGuard.c",
+    "classes": [
+      "EGC_GraphicsConfig",
+      "EGC_ClientGraphicsGuard",
+      "SCR_BaseGameMode",
+      "SCR_SettingsSubMenuBase",
+      "EGC_GraphicsGuardAttribute"
+    ],
+    "references": [
+      "EGC_ClientGraphicsGuard",
+      "EGC_DeferredReload",
+      "EGC_GraphicsConfig",
+      "EGC_GraphicsGuard",
+      "EGC_GraphicsGuardAttribute",
+      "EGC_IsGraphicsGuardEnabled",
+      "EGC_MIN_DISTANT_SHADOWS",
+      "EGC_MIN_GRASS_LOD",
+      "EGC_MIN_GRASS_RANGE",
+      "EGC_OnGraphicsGuardUpdated",
+      "EGC_SetGraphicsGuardEnabled",
+      "EGC_config"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config/"
+    ]
+  },
+  {
+    "file": "scripts/Game/EGC_HardcoreHUD.c",
+    "classes": [
+      "EGC_HardcoreHUDConfig",
+      "EGC_HardcoreHUDState",
+      "SCR_BaseGameMode",
+      "EGC_HardcoreHUDEnabledAttribute",
+      "SCR_WeaponInfo",
+      "SCR_WeaponInfoWidgets"
+    ],
+    "references": [
+      "EGC_HardcoreHUD",
+      "EGC_HardcoreHUDConfig",
+      "EGC_HardcoreHUDEnabledAttribute",
+      "EGC_HardcoreHUDState",
+      "EGC_IsHardcoreHUDEnabled",
+      "EGC_OnHardcoreHUDUpdated",
+      "EGC_SetHardcoreHUDEnabled",
+      "EGC_config"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config/"
+    ]
+  },
+  {
+    "file": "scripts/Game/EGC_HoldBreathSightsConfig.c",
+    "classes": [
+      "EGC_HoldBreathSightsConfig"
+    ],
+    "references": [
+      "EGC_HoldBreathSightsConfig"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_HoldBreathSystem.c",
+    "classes": [
+      "EGC_HoldBreathSystem"
+    ],
+    "references": [
+      "EGC_EBreathStopReason",
+      "EGC_HoldBreath",
+      "EGC_HoldBreathAction",
+      "EGC_HoldBreathSightsConfig",
+      "EGC_HoldBreathSystem"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_HQProtection.c",
+    "classes": [
+      "EGC_HQProtectionConfig",
+      "EGC_HQProtectionState",
+      "SCR_BaseGameMode",
+      "EGC_SpawnProtectionEnabledAttribute",
+      "SCR_CampaignMilitaryBaseComponent",
+      "EGC_HQProtectComponentClass",
+      "EGC_HQProtectComponent",
+      "SCR_ChimeraCharacter",
+      "SCR_CharacterControllerComponent",
+      "SCR_CharacterDamageManagerComponent",
+      "SCR_MortarShootAction",
+      "TOFTS_ArtilleryShootAction",
+      "SCR_ItemPlacementComponent",
+      "SCR_InventoryStorageManagerComponent",
+      "SCR_FlareAnimationComponent"
+    ],
+    "references": [
+      "EGC_ENTER_HQ_BASE",
+      "EGC_EXEMPTED_PREFABS",
+      "EGC_GetBasePresence",
+      "EGC_HQProtectComponent",
+      "EGC_HQProtectComponentClass",
+      "EGC_HQProtection",
+      "EGC_HQProtectionConfig",
+      "EGC_HQProtectionState",
+      "EGC_IsSpawnProtectionEnabled",
+      "EGC_LEAVE_HQ_BASE",
+      "EGC_NOTIFY_COOLDOWN",
+      "EGC_OnSpawnProtectionFlagUpdated",
+      "EGC_PROHIBITED_ACTIONS",
+      "EGC_SHOOT_HQ_BASE",
+      "EGC_SetSpawnProtectionEnabled",
+      "EGC_SpawnProtectionEnabledAttribute",
+      "EGC_config",
+      "EGC_isLocalPlayerPresent"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config/"
+    ]
+  },
+  {
+    "file": "scripts/Game/EGC_MatchScoringLog.c",
+    "classes": [
+      "EGC_MatchPlayerEntry",
+      "EGC_MatchLogJson",
+      "EGC_ScoringGameModeComponentClass",
+      "EGC_ScoringGameModeComponent"
+    ],
+    "references": [
+      "EGC_LOGGER",
+      "EGC_MatchLogJson",
+      "EGC_MatchPlayerEntry",
+      "EGC_ScoringGameModeComponent",
+      "EGC_ScoringGameModeComponentClass",
+      "EGC_config"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config/",
+      "$profile:EGC_config/Matchs/"
+    ]
+  },
+  {
+    "file": "scripts/Game/EGC_Parachute.c",
+    "classes": [
+      "EGC_ParachuteItemComponentClass",
+      "EGC_ParachuteItemComponent",
+      "SCR_PlayerController",
+      "EGC_ParachuteEntityClass",
+      "EGC_ParachuteEntity"
+    ],
+    "references": [
+      "EGC_AbortDeploy",
+      "EGC_ApplyTransform",
+      "EGC_AwaitEmptyThenDelete",
+      "EGC_BeginDeploy",
+      "EGC_Chute",
+      "EGC_ClearCooldown",
+      "EGC_DeleteSelf",
+      "EGC_EjectOccupant",
+      "EGC_ExemptFromGarbage",
+      "EGC_FindParachuteItem",
+      "EGC_Finish",
+      "EGC_GetParachutePrefab",
+      "EGC_GetSeatedOccupant",
+      "EGC_HoldPosition",
+      "EGC_HookExitClear",
+      "EGC_InitFlight",
+      "EGC_Land",
+      "EGC_LocalOccupantInput",
+      "EGC_MonitorFall",
+      "EGC_NetSync",
+      "EGC_OnCompartmentLeft",
+      "EGC_OnJumpPressed",
+      "EGC_OnNetStateChanged",
+      "EGC_OnParachuteFinished",
+      "EGC_PARACHUTE_AAD_HEIGHT",
+      "EGC_PARACHUTE_EXIT_CLEAR_HEIGHT",
+      "EGC_PARACHUTE_EXIT_DROP",
+      "EGC_PARACHUTE_EXIT_OUT",
+      "EGC_PARACHUTE_MIN_FALL_SPEED",
+      "EGC_PARACHUTE_MIN_HEIGHT_AGL",
+      "EGC_PARACHUTE_TOGGLE_COOLDOWN_MS",
+      "EGC_Pack",
+      "EGC_Parachute",
+      "EGC_ParachuteEntity",
+      "EGC_ParachuteEntityClass",
+      "EGC_ParachuteItemComponent",
+      "EGC_ParachuteItemComponentClass",
+      "EGC_ProxyInterpolate",
+      "EGC_ResolveSeat",
+      "EGC_RpcAsk_ParachuteSteer",
+      "EGC_RpcAsk_ToggleParachute",
+      "EGC_RpcDo_ParachuteHint",
+      "EGC_SendParachuteHint",
+      "EGC_SendParachuteSteer",
+      "EGC_ServerSimulate",
+      "EGC_SetSteerInput",
+      "EGC_SweepObstacle",
+      "EGC_TrySeat",
+      "EGC_WrapAngle"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_PlayerOnline.c",
+    "classes": [
+      "EGC_PlayerRecordOnline",
+      "EGC_PlayersOnlineConfig",
+      "EGC_PlayersOnlineState",
+      "SCR_BaseGameMode"
+    ],
+    "references": [
+      "EGC_LOGGER",
+      "EGC_PlayerRecordOnline",
+      "EGC_PlayersOnline",
+      "EGC_PlayersOnlineConfig",
+      "EGC_PlayersOnlineState",
+      "EGC_config"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config/"
+    ]
+  },
+  {
+    "file": "scripts/Game/EGC_PlayerRecord.c",
+    "classes": [
+      "EGC_PlayerRecord",
+      "EGC_PlayersDatabaseConfig",
+      "EGC_PlayersDatabaseState",
+      "SCR_BaseGameMode"
+    ],
+    "references": [
+      "EGC_LOGGER",
+      "EGC_PlayerRecord",
+      "EGC_PlayersDatabase",
+      "EGC_PlayersDatabaseConfig",
+      "EGC_PlayersDatabaseState",
+      "EGC_config"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config/"
+    ]
+  },
+  {
+    "file": "scripts/Game/EGC_PlayersGPSMapMarkers.c",
+    "classes": [
+      "EGC_UnitMapMarkersConfig",
+      "EGC_GPSPlayerMarkerSnapshot",
+      "SCR_PlayerController",
+      "EGC_UnitMapMarkersUI"
+    ],
+    "references": [
+      "EGC_BuildMarkerText",
+      "EGC_CollectVehicleOccupants",
+      "EGC_GPSPlayerMarkerSnapshot",
+      "EGC_GPSPlayersMapMarkers",
+      "EGC_GPS_SERVER_REFRESH_MS",
+      "EGC_GetGpsMarkerSnapshots",
+      "EGC_GetMarkerColor",
+      "EGC_GetOccupiedVehicle",
+      "EGC_GetVehicleEntityInfo",
+      "EGC_GetVehicleIconName",
+      "EGC_GetVehicleIconNameFallback",
+      "EGC_GetVehicleRepresentativePlayerId",
+      "EGC_RpcDoSyncGpsMarkers",
+      "EGC_ServerRefreshGpsMarkers",
+      "EGC_UnitMapMarkersConfig",
+      "EGC_UnitMapMarkersUI"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_Player_AFK.c",
+    "classes": [
+      "EGC_PlayerAFKSystem",
+      "SCR_BaseGameMode",
+      "SCR_PlayerController",
+      "EGC_FactionCleanupHUD",
+      "EGC_FactionCleanupDisplay",
+      "SCR_PlayerController"
+    ],
+    "references": [
+      "EGC_AFK",
+      "EGC_AFKActionSystem",
+      "EGC_AFK_Game_Massage",
+      "EGC_AFK_Game_Warning",
+      "EGC_AFK_kicked",
+      "EGC_CheckFactionSelectionAFK",
+      "EGC_FactionCleanupDisplay",
+      "EGC_FactionCleanupHUD",
+      "EGC_FactionSelect_Warning",
+      "EGC_Faction_Window",
+      "EGC_OnFactionWarningAcknowledged",
+      "EGC_PlayerAFKSystem",
+      "EGC_RequestFactionSelectionCountdownStart",
+      "EGC_RpcFactionSelectionCountdownStart_Server",
+      "EGC_RpcFactionSelectionWarning_BC",
+      "EGC_RpcUpdateFactionSelectionUI",
+      "EGC_SendFactionProgressToPlayer",
+      "EGC_SendFactionSelectionUpdate",
+      "EGC_StartFactionSelectionCountdown",
+      "EGC_config"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config/EGC_AFK_kicked"
+    ]
+  },
+  {
+    "file": "scripts/Game/EGC_RoleSelectionMenu.c",
+    "classes": [
+      "SCR_DeployMenuHandler",
+      "SCR_RoleSelectionMenu"
+    ],
+    "references": [
+      "EGC_BUTTON_POLL_MS",
+      "EGC_FactionCards",
+      "EGC_FactionSelectorUIComponent",
+      "EGC_PersistentWarning",
+      "EGC_SKIP_CARDS_IF_HAS_FACTION",
+      "EGC_ShowCardStage",
+      "EGC_StartButtonPolling",
+      "EGC_StopButtonPolling",
+      "EGC_UpdateButtonStates",
+      "EGC_WIDGET_FACTION_CARDS",
+      "EGC_WIDGET_PERSISTENT_WARNING",
+      "EGC_WIDGET_VANILLA_LEFT"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_SaveSystem.c",
+    "classes": [
+      "EGC_WipeFlagData",
+      "SCR_BaseGameMode"
+    ],
+    "references": [
+      "EGC_DEBUG",
+      "EGC_WipeFlagData",
+      "EGC_config"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config/"
+    ]
+  },
+  {
+    "file": "scripts/Game/EGC_SeatInVehicleAction.c",
+    "classes": [
+      "EGC_SeatInVehicleAction"
+    ],
+    "references": [
+      "EGC_SeatInVehicleAction"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_ServerRules.c",
+    "classes": [
+      "EGC_RulesDialog",
+      "EGC_ServerRulesComponentClass",
+      "EGC_ServerRulesComponent",
+      "EGC_ShowRulesButtonComponent",
+      "EGC_OpenWebsiteButtonComponent"
+    ],
+    "references": [
+      "EGC_Dialogs",
+      "EGC_OpenWebsiteButtonComponent",
+      "EGC_RulesDialog",
+      "EGC_ServerRulesComponent",
+      "EGC_ServerRulesComponentClass",
+      "EGC_ShowRulesButtonComponent"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_ShotMute.c",
+    "classes": [
+      "EGC_ShotMuteSettings",
+      "SCR_AudioSettingsSubMenu",
+      "EGC_ShotMuteSystem",
+      "EGC_ShotMuteInfo"
+    ],
+    "references": [
+      "EGC_DebugCheckVolume",
+      "EGC_ShotMute",
+      "EGC_ShotMuteInfo",
+      "EGC_ShotMuteLevel",
+      "EGC_ShotMuteSettings",
+      "EGC_ShotMuteSystem",
+      "EGC_ShotMuteToggle",
+      "EGC_config"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config",
+      "$profile:EGC_config/EGC_ShotMuteLevel.json"
+    ]
+  },
+  {
+    "file": "scripts/Game/EGC_StaffList.c",
+    "classes": [
+      "EGC_StaffConfig",
+      "EGC_StaffList",
+      "SCR_PlayerController"
+    ],
+    "references": [
+      "EGC_IsStaffLocal",
+      "EGC_RpcSetStaff",
+      "EGC_SetStaff",
+      "EGC_Staff",
+      "EGC_StaffConfig",
+      "EGC_StaffList",
+      "EGC_config"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config/"
+    ]
+  },
+  {
+    "file": "scripts/Game/EGC_SwapSide.c",
+    "classes": [
+      "EGC_SwapSideContextAction",
+      "SCR_PlayerController",
+      "EGC_FactionChange"
+    ],
+    "references": [
+      "EGC_AskForFactionSwap",
+      "EGC_FactionChange",
+      "EGC_RpcServer_DoSwap",
+      "EGC_SwapSideContextAction"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_TapShouldAction.c",
+    "classes": [
+      "EGC_TapShoulderAction"
+    ],
+    "references": [
+      "EGC_TapShoulderAction"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_TeamBalancer.c",
+    "classes": [
+      "EGC_TeamBalancerConfig",
+      "EGC_TeamBalancerState",
+      "SCR_BaseGameMode",
+      "EGC_TeamBalancer_EnabledAttribute",
+      "SCR_Faction",
+      "SCR_FactionButton",
+      "EGC_FactionButton"
+    ],
+    "references": [
+      "EGC_FactionButton",
+      "EGC_TEAMBALANCER",
+      "EGC_TeamBalancer",
+      "EGC_TeamBalancerConfig",
+      "EGC_TeamBalancerState",
+      "EGC_TeamBalancer_ComputeBalancedFactionsMask",
+      "EGC_TeamBalancer_EnabledAttribute",
+      "EGC_TeamBalancer_GetMaxImbalance",
+      "EGC_TeamBalancer_IsEligible",
+      "EGC_TeamBalancer_IsEnabled",
+      "EGC_TeamBalancer_IsFactionBalanced",
+      "EGC_TeamBalancer_IsFactionImbalanced",
+      "EGC_TeamBalancer_OnEnabledReplicated",
+      "EGC_TeamBalancer_OnFactionsMaskReplicated",
+      "EGC_TeamBalancer_OnMaxImbalanceReplicated",
+      "EGC_TeamBalancer_SetBalancedFactionsMask",
+      "EGC_TeamBalancer_SetEnabled",
+      "EGC_TeamBalancer_SetMaxImbalance",
+      "EGC_config"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config/"
+    ]
+  },
+  {
+    "file": "scripts/Game/EGC_ThirdPersonVehicleControl.c",
+    "classes": [
+      "EGC_ThirdPersonVehicleConfig",
+      "SCR_BaseGameMode",
+      "SCR_CharacterCameraHandlerComponent",
+      "EGC_ThirdPersonVehicleOnlyAttribute"
+    ],
+    "references": [
+      "EGC_CheckRuleChanged",
+      "EGC_ThirdPersonVehicle",
+      "EGC_ThirdPersonVehicleConfig",
+      "EGC_ThirdPersonVehicleOnlyAttribute",
+      "EGC_config"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config/"
+    ]
+  },
+  {
+    "file": "scripts/Game/EGC_VehicleCamoNetComponent.c",
+    "classes": [
+      "EGC_VehicleCamoNetComponentClass",
+      "EGC_VehicleCamoNetComponent",
+      "EGC_ToggleCamoNetUserAction"
+    ],
+    "references": [
+      "EGC_ToggleCamoNetUserAction",
+      "EGC_VehicleCamoNetComponent",
+      "EGC_VehicleCamoNetComponentClass"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_VehicleFactionAffiliationComponent_TICKET.c",
+    "classes": [],
+    "references": [],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_VehicleFactionFlagComponent.c",
+    "classes": [
+      "EGC_VehicleFlagEntry",
+      "EGC_VehicleFlagSlot",
+      "EGC_VehicleFactionFlagComponentClass",
+      "EGC_VehicleFactionFlagComponent"
+    ],
+    "references": [
+      "EGC_EFlagSlotMode",
+      "EGC_VehicleFactionFlagComponent",
+      "EGC_VehicleFactionFlagComponentClass",
+      "EGC_VehicleFlagEntry",
+      "EGC_VehicleFlagSlot"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_VehicleFactionLock.c",
+    "classes": [
+      "EGC_Defines_VehicleLock",
+      "SCR_ActionUIInfo",
+      "EGC_VehicleKeyComponentClass",
+      "EGC_VehicleKeyComponent",
+      "EGC_VehicleKeyPredicate",
+      "EGC_VehicleAccessComponentClass",
+      "EGC_VehicleAccessComponent",
+      "EGC_AccessPermitComponentClass",
+      "EGC_AccessPermitComponent",
+      "SCR_GetInUserAction",
+      "SCR_OpenVehicleDoorUserAction",
+      "SCR_OpenVehicleStorageAction",
+      "SCR_ResourceContainerVehicleLoadAction",
+      "SCR_ResourceContainerVehicleUnloadAction",
+      "EGC_VehicleAccessToggleAction",
+      "EGC_VehicleAccessGrantAction",
+      "SCR_PlacingEditorComponent",
+      "EGC_SalvageVehicleAccessAction",
+      "EGC_VehicleAccessEjectAction",
+      "SCR_VehicleSpawnProtectionComponent",
+      "SCR_InventoryStorageManagerComponent",
+      "SCR_BaseGameMode"
+    ],
+    "references": [
+      "EGC_AccessPermitComponent",
+      "EGC_AccessPermitComponentClass",
+      "EGC_DEFINES_VEHICLELOCK",
+      "EGC_Defines_VehicleLock",
+      "EGC_SalvageVehicleAccessAction",
+      "EGC_VehicleAccessComponent",
+      "EGC_VehicleAccessComponentClass",
+      "EGC_VehicleAccessEjectAction",
+      "EGC_VehicleAccessGrantAction",
+      "EGC_VehicleAccessToggleAction",
+      "EGC_VehicleKey",
+      "EGC_VehicleKeyComponent",
+      "EGC_VehicleKeyComponentClass",
+      "EGC_VehicleKeyPredicate"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_VehicleRefundLock.c",
+    "classes": [
+      "SCR_ResourceEntityRefundAction"
+    ],
+    "references": [
+      "EGC_GetVehicleAccess",
+      "EGC_IsRefundAllowedFor",
+      "EGC_VehicleAccessComponent"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_VehicleXPCost.c",
+    "classes": [
+      "SCR_CampaignBuildingPlacingEditorComponent",
+      "SCR_AssetCardFrontUIComponent",
+      "SCR_PlacingToolbarEditorUIComponent"
+    ],
+    "references": [
+      "EGC_ChargeVehicleXP",
+      "EGC_UpdateXPCost",
+      "EGC_VEHICLE_PURCHASE",
+      "EGC_XPCostIcon",
+      "EGC_XPCostLayout",
+      "EGC_XPCostValue",
+      "EGC_XP_COST"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EGC_VIPManager.c",
+    "classes": [
+      "EGC_VIPConfig",
+      "SCR_BaseGameMode",
+      "SCR_PlayerController",
+      "SCR_BaseGameMode",
+      "SCR_BaseGameMode"
+    ],
+    "references": [
+      "EGC_CheckAndPunishVIP",
+      "EGC_GUARD_MAX_RETRIES",
+      "EGC_Guard",
+      "EGC_IsPlayerVIP",
+      "EGC_KillUnauthorizedAdmin",
+      "EGC_OnAdminToggleAttempt",
+      "EGC_RpcAdminToggleAttempt",
+      "EGC_Staff",
+      "EGC_StaffList",
+      "EGC_VIP",
+      "EGC_VIPConfig",
+      "EGC_VIPWatchdog",
+      "EGC_ValidateAdmin",
+      "EGC_Vips",
+      "EGC_config"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config/"
+    ]
+  },
+  {
+    "file": "scripts/Game/EGC_ZipTieAction.c",
+    "classes": [
+      "EGC_ZipTieAction"
+    ],
+    "references": [
+      "EGC_ZipTieAction"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/EntityCatalog/EntityCatalogEntryData/SCR_EntityCatalogSpawnerData.c",
+    "classes": [
+      "SCR_EntityCatalogSpawnerData",
+      "SCR_SpawnerVariantData"
+    ],
+    "references": [],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/GameMode/SCR_BaseGameModeInternal.c",
+    "classes": [
+      "SCR_BaseGameMode"
+    ],
+    "references": [
+      "EGC_CheckAndApply",
+      "EGC_SetStaff",
+      "EGC_StaffList"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/Map/Modules/SCR_MapCursorModule.c",
+    "classes": [
+      "SCR_MapCursorInfo",
+      "SCR_MapCursorModule",
+      "SCR_CursorVisualState",
+      "SCR_CursorStateTitle"
+    ],
+    "references": [],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/Network/Notifications/EGC_ENotification.c",
+    "classes": [],
+    "references": [
+      "EGC_AUTOCLEANUP_EXECUTE",
+      "EGC_AUTOCLEANUP_WARNING",
+      "EGC_AUTOCLEANUP_WARNING_2",
+      "EGC_ENTER_HQ_BASE",
+      "EGC_LEAVE_HQ_BASE",
+      "EGC_PROTECTION_DISABLED",
+      "EGC_PROTECTION_ENABLED",
+      "EGC_PROTECTION_WARNING",
+      "EGC_SHOOT_HQ_BASE"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/Ranks/SCR_RankInfo.c",
+    "classes": [
+      "SCR_RankInfo"
+    ],
+    "references": [],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/SafeZone/EGC_CharacterSafezoneComponent.c",
+    "classes": [
+      "EGC_CharacterSafezoneComponentClass",
+      "EGC_CharacterSafezoneComponent"
+    ],
+    "references": [
+      "EGC_CharacterSafezoneComponent",
+      "EGC_CharacterSafezoneComponentClass",
+      "EGC_Safezone",
+      "EGC_SafezoneInfoDisplay"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/SafeZone/EGC_SafezoneDeactivateWrapper.c",
+    "classes": [
+      "EGC_SafezoneDeactivateWrapper"
+    ],
+    "references": [
+      "EGC_CharacterSafezoneComponent",
+      "EGC_Safezone",
+      "EGC_SafezoneDeactivateWrapper",
+      "EGC_SafezoneEntity"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/SafeZone/EGC_SafezoneEntity.c",
+    "classes": [
+      "EGC_SafezoneEntityClass",
+      "EGC_SafezoneEntity"
+    ],
+    "references": [
+      "EGC_CharacterSafezoneComponent",
+      "EGC_Safezone",
+      "EGC_SafezoneDeactivateWrapper",
+      "EGC_SafezoneEntity",
+      "EGC_SafezoneEntityClass",
+      "EGC_SafezoneKillWrapper",
+      "EGC_SafezoneKilltype"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/SafeZone/EGC_SafezoneInfoDisplay.c",
+    "classes": [
+      "EGC_SafezoneInfoDisplay"
+    ],
+    "references": [
+      "EGC_SafeZone_Entered",
+      "EGC_SafeZone_Exited",
+      "EGC_Safezone",
+      "EGC_SafezoneInfoDisplay"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/SafeZone/EGC_SafezoneKillWrapper.c",
+    "classes": [
+      "EGC_SafezoneKillWrapper"
+    ],
+    "references": [
+      "EGC_SafezoneEntity",
+      "EGC_SafezoneKillWrapper"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/SafeZone/EGC_SafeZoneVehicleToggle.c",
+    "classes": [
+      "EGC_SafezoneVehicleConfig",
+      "EGC_SafezoneVehicleState",
+      "SCR_BaseGameMode",
+      "EGC_SafezoneVehicleProtectionAttribute"
+    ],
+    "references": [
+      "EGC_IsVehicleProtectionEnabled",
+      "EGC_OnVehicleProtectionUpdated",
+      "EGC_SafezoneVehicleConfig",
+      "EGC_SafezoneVehicleProtection",
+      "EGC_SafezoneVehicleProtectionAttribute",
+      "EGC_SafezoneVehicleState",
+      "EGC_SetVehicleProtectionEnabled",
+      "EGC_config"
+    ],
+    "profile_paths": [
+      "$profile:EGC_config/"
+    ]
+  },
+  {
+    "file": "scripts/Game/UI/Menu/SettingsMenu/SettingsMenu/EGC_SettingsSubMenuBase.c",
+    "classes": [],
+    "references": [],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/UserActions/EGC_HowitzerFoldAction.c",
+    "classes": [
+      "EGC_HowitzerFoldAction"
+    ],
+    "references": [
+      "EGC_HowitzerFoldAction"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/UserActions/EGC_HowitzerTurnAction.c",
+    "classes": [
+      "EGC_HowitzerTurnAction"
+    ],
+    "references": [
+      "EGC_HowitzerTurnAction"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/UserActions/EGC_HowitzerTurnFoldAction.c",
+    "classes": [
+      "EGC_HowitzerTurnFoldAction"
+    ],
+    "references": [
+      "EGC_HowitzerTurnFoldAction"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/UserActions/EGC_HowitzerUnfoldAction.c",
+    "classes": [
+      "EGC_HowitzerUnfoldAction"
+    ],
+    "references": [
+      "EGC_HowitzerUnfoldAction"
+    ],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/UserActions/EGC_SU33_HardpointSwapAction.c",
+    "classes": [],
+    "references": [],
+    "profile_paths": []
+  },
+  {
+    "file": "scripts/Game/UserActions/EGC_TowAction.c",
+    "classes": [
+      "EGC_TowAttachAction",
+      "EGC_TowDetachAction"
+    ],
+    "references": [
+      "EGC_TowAttachAction",
+      "EGC_TowDetachAction"
+    ],
+    "profile_paths": []
+  }
+]
